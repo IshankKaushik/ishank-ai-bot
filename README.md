@@ -1,6 +1,4 @@
-# tg-gemini-bot
-
-[EN](README.md) | [简中](README_zh-CN.md) 
+# [Ishank Kaushik](https://telegram.me/ishankkaushik)
 
 The tg-gemini-bot let's you use Google Gemini services right on your personal Telegram bot.
 
