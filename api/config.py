@@ -22,15 +22,15 @@ AUCH_ENABLE = os.getenv("AUCH_ENABLE", "1")
 #"1"to use the same chat history in the group, "2"to record chat history individually for each person
 GROUP_MODE = os.getenv("GROUP_MODE=", "1")
 
-#After setting up 3 rounds of dialogue, prompt the user to start a new dialogue
-prompt_new_threshold = int(3)
+#After setting up 22 rounds of dialogue, prompt the user to start a new dialogue
+prompt_new_threshold = int(22)
 
 #The default prompt when the photo has no accompanying text
 defaut_photo_caption = "describe this picture"
 
 """ Below is some text related to the user """
 help_text = "**Send Your Questions or Pictures to the Bot, and I will Provide Answers.**"
-command_list = "\n __» created by @IshankKaushik ❤️__"
+command_list = "\n_» created by @IshankKaushik ❤️_"
 admin_auch_info = "You are not the Bot Admin, so you can't use this function!!!"
 debug_mode_info = "Debug mode is not enabled!"
 command_format_error_info = "Wrong command, use /help for help"
@@ -39,7 +39,7 @@ user_no_permission_info = "You are not allowed to use this bot 🫤"
 group_no_permission_info = "This group does not have permission to use this robot ❌"
 gemini_err_info = "Something went wrong!\nThe content you entered may be inappropriate, please modify it and try again"
 new_chat_info = "We're starting a new chat."
-prompt_new_info = "__type '/new' to start a new chat__"
+prompt_new_info = "_type /new to start a new chat_"
 unable_to_recognize_content_sent = "The content you sent is not currently supported yet 😬"
 
 """ Below is some text related to the log """
