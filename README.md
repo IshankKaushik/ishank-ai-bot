@@ -1,6 +1,6 @@
 # [Ishank Kaushik](https://telegram.me/ishankkaushik)
 
-The tg-gemini-bot let's you use Google Gemini services right on your personal Telegram bot.
+The ishank-ai-bot let's you use Google Gemini services right on your personal Telegram bot.
 
 Super easy, just a single click and you've got it set up on Vercel.
 
