@@ -29,8 +29,7 @@ prompt_new_threshold = int(22)
 defaut_photo_caption = "describe this picture"
 
 """ Below is some text related to the user """
-help_text = "**Send Your Questions or Pictures to the Bot, and I will Provide Answers.**"
-command_list = "\n_» created by @IshankKaushik ❤️_"
+help_text = "**Send Your Questions or Pictures to the Bot, and I will Provide Answers.**\n_» created by @IshankKaushik ❤️_"
 admin_auch_info = "You are not the Bot Admin, so you can't use this function!!!"
 debug_mode_info = "Debug mode is not enabled!"
 command_format_error_info = "Wrong command, use /help for help"
