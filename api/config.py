@@ -41,7 +41,7 @@ gemini_err_info = "Something went wrong!\nThe content you entered may be inappro
 new_chat_info = "We're starting a new chat."
 prompt_new_info = "_'type /new to start a new chat'_"
 unable_to_recognize_content_sent = "The content you sent is not currently supported yet 😬"
-sendMessage($chatId, "*Send Your Questions to the Bot, and I will Provide Answers.*\n\n _» created by @IshankKaushik ❤️_", 'Markdown');
+sendMessage($chatId, "*Wend Your Questions to the Bot, and I will Provide Answers.*\n\n _» created by @IshankKaushik ❤️_", 'Markdown');
 
 """ Below is some text related to the log """
 send_message_log = "Send a message. The content returned is:"
