@@ -17,7 +17,7 @@ IS_DEBUG_MODE = os.getenv("IS_DEBUG_MODE", '0')
 ADMIN_ID = os.getenv("ADMIN_ID", "1234567890")
 
 # Determines whether to verify identity. If 0, anyone can use the bot. It is enabled by default.
-AUTH_ENABLE = os.getenv("AUTH_ENABLE", "1")
+AUCH_ENABLE = os.getenv("AUCH_ENABLE", "1")
 
 # "1" to use the same chat history in the group, "2" to record chat history individually for each person
 GROUP_MODE = os.getenv("GROUP_MODE=", "1")
@@ -29,7 +29,7 @@ prompt_new_threshold = int(22)
 default_photo_caption = "describe this picture"
 
 """ Below is some text related to the user """
-help_text = "*Send Your Questions or Pictures to the Bot, and I will Provide Answers.*\n"
+help_text = "**Send Your Questions or Pictures to the Bot, and I will Provide Answers.**\n"
 command_list = "_» created by @IshankKaushik ❤️_"
 admin_auch_info = "You are not the Bot Admin, so you can't use this function!!!"
 debug_mode_info = "Debug mode is not enabled!"
