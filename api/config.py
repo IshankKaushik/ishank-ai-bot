@@ -11,25 +11,25 @@ GOOGLE_API_KEY = split(r'[ ,;，；]+', os.environ.get("GOOGLE_API_KEY"))
 ALLOWED_USERS = split(r'[ ,;，；]+', os.getenv("ALLOWED_USERS", '').replace("@", "").lower())
 ALLOWED_GROUPS = split(r'[ ,;，；]+', os.getenv("ALLOWED_GROUPS", '').replace("@", "").lower())
 
-#Whether to push logs and enable some admin commands
+# Whether to push logs and enable some admin commands
 IS_DEBUG_MODE = os.getenv("IS_DEBUG_MODE", '0')
-#The target account that can execute administrator instructions and log push can use /get_my_info to obtain the ID.
+# The target account that can execute administrator instructions and log push can use /get_my_info to obtain the ID.
 ADMIN_ID = os.getenv("ADMIN_ID", "1234567890")
 
-#Determines whether to verify identity. If 0, anyone can use the bot. It is enabled by default.
-AUCH_ENABLE = os.getenv("AUCH_ENABLE", "1")
+# Determines whether to verify identity. If 0, anyone can use the bot. It is enabled by default.
+AUTH_ENABLE = os.getenv("AUTH_ENABLE", "1")
 
-#"1"to use the same chat history in the group, "2"to record chat history individually for each person
+# "1" to use the same chat history in the group, "2" to record chat history individually for each person
 GROUP_MODE = os.getenv("GROUP_MODE=", "1")
 
-#After setting up 22 rounds of dialogue, prompt the user to start a new dialogue
+# After setting up 22 rounds of dialogue, prompt the user to start a new dialogue
 prompt_new_threshold = int(22)
 
-#The default prompt when the photo has no accompanying text
-defaut_photo_caption = "describe this picture"
+# The default prompt when the photo has no accompanying text
+default_photo_caption = "describe this picture"
 
 """ Below is some text related to the user """
-help_text = "**Send Your Questions or Pictures to the Bot, and I will Provide Answers.**\n"
+help_text = "*Send Your Questions or Pictures to the Bot, and I will Provide Answers.*\n"
 command_list = "_» created by @IshankKaushik ❤️_"
 admin_auch_info = "You are not the Bot Admin, so you can't use this function!!!"
 debug_mode_info = "Debug mode is not enabled!"
@@ -55,7 +55,6 @@ the_accompanying_message_is = "The accompanying message is:"
 the_logarithm_of_historical_conversations_is = "The logarithm of historical conversations is:"
 no_rights_to_use = "No rights to use"
 send_unrecognized_content = "Send unrecognized content"
-
 
 """ read https://ai.google.dev/api/rest/v1/GenerationConfig """
 generation_config = {
